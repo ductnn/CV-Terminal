@@ -240,7 +240,7 @@ var terminal = new Vue({
 				}
 				// sudo command
 				else if (cmd == "sudo" || cmd.substring(0, 5) == "sudo ") {
-					reply = "[sudo] password for arun:";
+					reply = "[sudo] password for run:";
 					sudoActivated = true;
 				}
 				// date command 
