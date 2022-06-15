@@ -42,22 +42,13 @@ var possibleCommands = {
         'technical_skills'
     ],
 
-    interests: [
-        'ls interests',
-        'interests',
-        'ls interest',
-        'interest',
-        'echo interests',
-        'echo interest'
-    ],
-
-    experiances: [
-        'experiances',
-        'ls experiances',
-        'echo experiances',
-        'experiance',
-        'ls experiance',
-        'echo experiance',
+    experiences: [
+        'experiences',
+        'ls experiences',
+        'echo experiences',
+        'experience',
+        'ls experience',
+        'echo experience',
         'job',
         'echo job',
         'ls job'
@@ -80,22 +71,4 @@ var possibleCommands = {
         'ls education',
         'echo education'
     ],
-
-    achievements: [
-        'achievements',
-        'ls achievements',
-        'echo achievements',
-        'achievement',
-        'ls achievement',
-        'echo achievement'
-    ],
-
-	extra_activities: [
-        'extra_activities',
-        'ls extra_activities',
-        'echo extra_activities',
-        'activities',
-        'ls activities',
-        'echo activities'
-    ]
 };

@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head itemscope itemtype="http://schema.org/WebSite">
-    <title itemprop='name'>Arun D Nambissan</title>
-    <link rel="canonical" href="http://arund.in/" itemprop="url">
+    <title itemprop='name'>cv-root@ductn</title>
+    <link rel="canonical" href="https://ductn.info" itemprop="url">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" itemprop="description" content="Arun D Nambissan | Kozhikode, Kerala, India | www.arund.in | hello@arund.in | +91 94 96 345 346">
-    <meta name="author" content="Arun D Nambissan" itemprop="author">
+    <meta name="description" itemprop="description" content="Duc Tran | Hanoi, Vietnam | ductn.info | ductn53@gmail.com | +84 96 14 33 906">
+    <meta name="author" content="Duc Tran" itemprop="author">
     <meta name="theme-color" content="#EC4758">
 
-    <link rel="shortcut icon" href="assets/images/icon.jpg">
+    <link rel="shortcut icon" href="assets/images/D_title.png">
 
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/vue.js"></script>
@@ -26,33 +26,23 @@
     <div id="terminal" v-cloak>
         
         <div class="terminal-wrap">
-            <p class="terminal-top-bar"><strong>guest@arund.in: ~</strong></p>
+            <p class="terminal-top-bar"><strong>guest@ductn.info: ~</strong></p>
             <ul class="terminal-body">
                 <li class="line line-1"></li>
                 <li class="line line-2">&nbsp;</li>
-                <li class="line" v-if="terminalInit">send mail to "a.nambissan@gmail.com" && dial "+91 9496345346" && connect 
+                <li class="line" v-if="terminalInit">send mail to "ductn53@gmail.com" && dial "+84 961433906" && connect                    
+                    <a href="https://stackoverflow.com/users/15650512/ductnn" target="_blank" class="remove-link-styles arun-stackoverflow arun-tader" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
+                    &nbsp;                                             
+                    <a href="https://www.linkedin.com/in/ductnn/" target="_blank" class="remove-link-styles arun-linkedin arun-tader" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
+                    &nbsp;                       
+                    <a href="https://twitter.com/ductn4" target="_blank" class="remove-link-styles arun-twitter arun-tader" title="Twitter"><i class="fa fa-twitter"></i></a>
                     &nbsp;                        
-                    <a v-bind:href="rootUrl + 'stackoverflow'" target="_blank" class="remove-link-styles arun-stackoverflow arun-tader" title="Stack Overflow"><i class="fa fa-stack-overflow"></i></a>
+                    <a href="https://www.facebook.com/ductn53/" target="_blank" class="remove-link-styles arun-fb arun-tader" title="Facebook"><i class="fa fa-facebook"></i></a>
                     &nbsp;                        
-                    <a v-bind:href="rootUrl + 'gmaps'" target="_blank" class="remove-link-styles arun-google arun-tader" title="Local Guide - Google Maps"><i class="fa fa-map-marker"></i></a>
-                    &nbsp;                            
-                    <a v-bind:href="rootUrl + 'linkedin'" target="_blank" class="remove-link-styles arun-linkedin arun-tader" title="LinkedIn"><i class="fa fa-linkedin"></i></a>
-                    &nbsp; 
-                    <a v-bind:href="rootUrl + 'google'" target="_blank" class="remove-link-styles arun-google arun-tader" title="+ArunDNambissan Google+" ><i class="fa fa-google-plus"></i></a>
-                    &nbsp;                        
-                    <a v-bind:href="rootUrl + 'twitter'" target="_blank" class="remove-link-styles arun-twitter arun-tader" title="Twitter"><i class="fa fa-twitter"></i></a>
-                    &nbsp;                        
-                    <a v-bind:href="rootUrl + 'fb'" target="_blank" class="remove-link-styles arun-fb arun-tader" title="Facebook"><i class="fa fa-facebook"></i></a>
-                    &nbsp;                        
-                    <a v-bind:href="rootUrl + 'instagram'" target="_blank" class="remove-link-styles arun-instagram arun-tader" title="Instagram"><i class="fa fa-instagram"></i></a>
-                    &nbsp;                        
-                    <a v-bind:href="rootUrl + 'clicks'" target="_blank" class="remove-link-styles arun-clicks arun-tader" title="My Clicks"><i class="fa fa-camera"></i></a>
-                    &nbsp;                        
-                    <a v-bind:href="rootUrl + 'pay'" target="_blank" class="remove-link-styles arun-stackoverflow arun-tader" title="Pay Arun"><i class="fa fa-money"></i></a>
+                    <a href="https://www.instagram.com/ductn_/" target="_blank" class="remove-link-styles arun-instagram arun-tader" title="Instagram"><i class="fa fa-instagram"></i></a>
                 </li>
-                <li class="line" v-if="terminalInit">works @ "<a href="http://www.phases.dk" target="_blank" class="remove-link-styles">Phases Innovations, Kochi, Kerala</a>"</li>
-                <li class="line" v-if="terminalInit">leisure time works => "<a href="http://www.stapto.com" target="_blank" class="remove-link-styles">Stapto | www.stapto.com</a>"</li>
-                <li class="line" v-if="terminalInit">home town => Kozhikode && now at => Kochi</li>
+                <li class="line" v-if="terminalInit">works @ "<a href="https://moonlab.asia" target="_blank" class="remove-link-styles">MoonLab, Hanoi, Vietnam</a>"</li>
+                <li class="line" v-if="terminalInit">home town => Hanoi, Vietnam</li>
                 <li class="line" v-if="terminalInit">&nbsp;</li>
                 <li class="line" v-if="terminalInit">
                 	site --help
@@ -61,13 +51,10 @@
                 	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('wget resume')">wget resume</a></li>
                 	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('echo resume')">echo resume</a></li>
                 	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('ls projects')">ls projects</a></li>
-                	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('ls experiances')">ls experiances</a></li>
+                	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('ls experiences')">ls experiences</a></li>
                 	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('ls skills')">ls skills</a></li>
-                	<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('ls interests')">ls interests</a></li>
                 	<li v-if="terminalInit" class="bullet">
-                        <a v-on:click="executeThisCommand('ls edu')">ls edu</a>,
-                        <a v-on:click="executeThisCommand('ls achievements')">ls achievements</a>, 
-                        <a v-on:click="executeThisCommand('ls extra_activities')">ls extra_activities</a>
+                        <a v-on:click="executeThisCommand('ls edu')">ls edu</a>
                     </li>
                 	<!--<li class="bullet"></li>-->
                 	<!--<li v-if="terminalInit" class="bullet"><a v-on:click="executeThisCommand('talk')">talk</a></li>-->
@@ -89,7 +76,7 @@
             </ul>
 
             <div class="terminal-footer">
-                <a class="btn close-terminal-btn" v-bind:href="rootUrl + 'home'" v-if="terminalInit">
+                <a class="btn close-terminal-btn" v-bind:href="rootUrl" v-if="terminalInit">
                     Close this terminal and view my webpage
                     <i class="fa fa-hand-o-right"></i>
                 </a>

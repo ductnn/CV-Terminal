@@ -9,7 +9,7 @@ var terminal = new Vue({
 		inputVal: "",
 		historyIndex: 0,
 		terminalInit: false,
-		rootUrl: "http://ArunD.in/"
+		rootUrl: "https://ductn.info/"
 	},
 
 	created: function () {
@@ -120,7 +120,7 @@ var terminal = new Vue({
 			 */
 			else if (possibleCommands.exit.indexOf(cmd) >= 0) {
 				this.allCommands.push({ txt: "exiting terminal... loading gui page...", type: 0, line_class: "" });
-				window.open("home");
+				window.open("https://ductn.info/");
 			}
 
 			/**
@@ -128,7 +128,7 @@ var terminal = new Vue({
 			 */
 			else if (possibleCommands.resume.indexOf(cmd) >= 0) {
 				this.allCommands.push({ txt: "downloading resume...", type: 0, line_class: "" });
-				window.open("cv");
+				window.open("https://ductn.info/pdf/ductn_CV.pdf");
 			}
 
 			/**
@@ -136,7 +136,7 @@ var terminal = new Vue({
 			 */
 			else if (possibleCommands.view_resume.indexOf(cmd) >= 0) {
 				this.allCommands.push({ txt: "printing resume...", type: 0, line_class: "" });
-				window.open("cv/view");
+				window.open("https://ductn.info/pdf/ductn_CV.pdf");
 			}
 
 			/* Skills */
@@ -145,13 +145,13 @@ var terminal = new Vue({
 			}
 
 			/* Area of interest */
-			else if (possibleCommands.interests.indexOf(cmd) >= 0) {
-				this.allCommands.push({ txt: answers.interests, type: 0, line_class: "" });
-			}
+			// else if (possibleCommands.interests.indexOf(cmd) >= 0) {
+			// 	this.allCommands.push({ txt: answers.interests, type: 0, line_class: "" });
+			// }
 
-			/* Experiances */
-			else if (possibleCommands.experiances.indexOf(cmd) >= 0) {
-				this.allCommands.push({ txt: answers.experiances, type: 0, line_class: "" });
+			/* experiences */
+			else if (possibleCommands.experiences.indexOf(cmd) >= 0) {
+				this.allCommands.push({ txt: answers.experiences, type: 0, line_class: "" });
 			}
 
 			/* Projects */
@@ -165,14 +165,14 @@ var terminal = new Vue({
 			}
 
 			/* achievements */
-			else if (possibleCommands.achievements.indexOf(cmd) >= 0) {
-				this.allCommands.push({ txt: answers.achievements, type: 0, line_class: "" });
-			}
+			// else if (possibleCommands.achievements.indexOf(cmd) >= 0) {
+			// 	this.allCommands.push({ txt: answers.achievements, type: 0, line_class: "" });
+			// }
 
 			/* extra_activities */
-			else if (possibleCommands.extra_activities.indexOf(cmd) >= 0) {
-				this.allCommands.push({ txt: answers.extra_activities, type: 0, line_class: "" });
-			}
+			// else if (possibleCommands.extra_activities.indexOf(cmd) >= 0) {
+			// 	this.allCommands.push({ txt: answers.extra_activities, type: 0, line_class: "" });
+			// }
 
 			// all other possible commands
 			else if (answers[cmd] != undefined) {
@@ -210,7 +210,7 @@ var terminal = new Vue({
 				}
 				// pwd command
 				else if (cmd == "pwd") {
-					reply = "/home/arund.in";
+					reply = "/home/ductn";
 				}
 				// no permission commands command
 				else if (
@@ -383,7 +383,7 @@ function typeWriter(text, n) {
 }
 
 $(document).ready(function () {
-	typeWriter("Hi. I am <b>ARUN D</b> :)", 0);
+	typeWriter("Hi. I am <b>Duc Tran</b> :)", 0);
 
 	console.log(".");
 	console.log(".");

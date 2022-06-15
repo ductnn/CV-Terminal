@@ -1,4 +1,5 @@
-# Terminal-Online-CV
+# Terminal CV
 An online CV with a UI interface mocking the Ubuntu terminal.
 
-I have used this code for my online CV - http://ArunD.in
+I have used this code for my online CV - https://cv.ductn.info
+
